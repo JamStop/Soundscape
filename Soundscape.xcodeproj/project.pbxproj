@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFBEBFDE1C3A041700CA6934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBEBFDD1C3A041700CA6934 /* AppDelegate.swift */; };
+		BFBEBFE01C3A041700CA6934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBEBFDF1C3A041700CA6934 /* ViewController.swift */; };
+		BFBEBFE31C3A041700CA6934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBEBFE11C3A041700CA6934 /* Main.storyboard */; };
+		BFBEBFE51C3A041700CA6934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBEBFE41C3A041700CA6934 /* Assets.xcassets */; };
+		BFBEBFE81C3A041700CA6934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBEBFE61C3A041700CA6934 /* LaunchScreen.storyboard */; };
+		BFBEBFF31C3A041700CA6934 /* SoundscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBEBFF21C3A041700CA6934 /* SoundscapeTests.swift */; };
+		BFBEBFFE1C3A041700CA6934 /* SoundscapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBEBFFD1C3A041700CA6934 /* SoundscapeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFBEBFEF1C3A041700CA6934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFBEBFD21C3A041700CA6934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFBEBFD91C3A041700CA6934;
+			remoteInfo = Soundscape;
+		};
+		BFBEBFFA1C3A041700CA6934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFBEBFD21C3A041700CA6934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFBEBFD91C3A041700CA6934;
+			remoteInfo = Soundscape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFBEBFDA1C3A041700CA6934 /* Soundscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBEBFDD1C3A041700CA6934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFBEBFDF1C3A041700CA6934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFBEBFE21C3A041700CA6934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFBEBFE41C3A041700CA6934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFBEBFE71C3A041700CA6934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFBEBFE91C3A041700CA6934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBEBFEE1C3A041700CA6934 /* SoundscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundscapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBEBFF21C3A041700CA6934 /* SoundscapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundscapeTests.swift; sourceTree = "<group>"; };
+		BFBEBFF41C3A041700CA6934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBEBFF91C3A041700CA6934 /* SoundscapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundscapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBEBFFD1C3A041700CA6934 /* SoundscapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundscapeUITests.swift; sourceTree = "<group>"; };
+		BFBEBFFF1C3A041700CA6934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFBEBFD71C3A041700CA6934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBEBFEB1C3A041700CA6934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBEBFF61C3A041700CA6934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFBEBFD11C3A041700CA6934 = {
+			isa = PBXGroup;
+			children = (
+				BFBEBFDC1C3A041700CA6934 /* Soundscape */,
+				BFBEBFF11C3A041700CA6934 /* SoundscapeTests */,
+				BFBEBFFC1C3A041700CA6934 /* SoundscapeUITests */,
+				BFBEBFDB1C3A041700CA6934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFBEBFDB1C3A041700CA6934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFBEBFDA1C3A041700CA6934 /* Soundscape.app */,
+				BFBEBFEE1C3A041700CA6934 /* SoundscapeTests.xctest */,
+				BFBEBFF91C3A041700CA6934 /* SoundscapeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFBEBFDC1C3A041700CA6934 /* Soundscape */ = {
+			isa = PBXGroup;
+			children = (
+				BFBEBFDD1C3A041700CA6934 /* AppDelegate.swift */,
+				BFBEBFDF1C3A041700CA6934 /* ViewController.swift */,
+				BFBEBFE11C3A041700CA6934 /* Main.storyboard */,
+				BFBEBFE41C3A041700CA6934 /* Assets.xcassets */,
+				BFBEBFE61C3A041700CA6934 /* LaunchScreen.storyboard */,
+				BFBEBFE91C3A041700CA6934 /* Info.plist */,
+			);
+			path = Soundscape;
+			sourceTree = "<group>";
+		};
+		BFBEBFF11C3A041700CA6934 /* SoundscapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFBEBFF21C3A041700CA6934 /* SoundscapeTests.swift */,
+				BFBEBFF41C3A041700CA6934 /* Info.plist */,
+			);
+			path = SoundscapeTests;
+			sourceTree = "<group>";
+		};
+		BFBEBFFC1C3A041700CA6934 /* SoundscapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFBEBFFD1C3A041700CA6934 /* SoundscapeUITests.swift */,
+				BFBEBFFF1C3A041700CA6934 /* Info.plist */,
+			);
+			path = SoundscapeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFBEBFD91C3A041700CA6934 /* Soundscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBEC0021C3A041700CA6934 /* Build configuration list for PBXNativeTarget "Soundscape" */;
+			buildPhases = (
+				BFBEBFD61C3A041700CA6934 /* Sources */,
+				BFBEBFD71C3A041700CA6934 /* Frameworks */,
+				BFBEBFD81C3A041700CA6934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soundscape;
+			productName = Soundscape;
+			productReference = BFBEBFDA1C3A041700CA6934 /* Soundscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFBEBFED1C3A041700CA6934 /* SoundscapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBEC0051C3A041700CA6934 /* Build configuration list for PBXNativeTarget "SoundscapeTests" */;
+			buildPhases = (
+				BFBEBFEA1C3A041700CA6934 /* Sources */,
+				BFBEBFEB1C3A041700CA6934 /* Frameworks */,
+				BFBEBFEC1C3A041700CA6934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFBEBFF01C3A041700CA6934 /* PBXTargetDependency */,
+			);
+			name = SoundscapeTests;
+			productName = SoundscapeTests;
+			productReference = BFBEBFEE1C3A041700CA6934 /* SoundscapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFBEBFF81C3A041700CA6934 /* SoundscapeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBEC0081C3A041700CA6934 /* Build configuration list for PBXNativeTarget "SoundscapeUITests" */;
+			buildPhases = (
+				BFBEBFF51C3A041700CA6934 /* Sources */,
+				BFBEBFF61C3A041700CA6934 /* Frameworks */,
+				BFBEBFF71C3A041700CA6934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFBEBFFB1C3A041700CA6934 /* PBXTargetDependency */,
+			);
+			name = SoundscapeUITests;
+			productName = SoundscapeUITests;
+			productReference = BFBEBFF91C3A041700CA6934 /* SoundscapeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFBEBFD21C3A041700CA6934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jimmy Yue";
+				TargetAttributes = {
+					BFBEBFD91C3A041700CA6934 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BFBEBFED1C3A041700CA6934 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BFBEBFD91C3A041700CA6934;
+					};
+					BFBEBFF81C3A041700CA6934 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BFBEBFD91C3A041700CA6934;
+					};
+				};
+			};
+			buildConfigurationList = BFBEBFD51C3A041700CA6934 /* Build configuration list for PBXProject "Soundscape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFBEBFD11C3A041700CA6934;
+			productRefGroup = BFBEBFDB1C3A041700CA6934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFBEBFD91C3A041700CA6934 /* Soundscape */,
+				BFBEBFED1C3A041700CA6934 /* SoundscapeTests */,
+				BFBEBFF81C3A041700CA6934 /* SoundscapeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFBEBFD81C3A041700CA6934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBEBFE81C3A041700CA6934 /* LaunchScreen.storyboard in Resources */,
+				BFBEBFE51C3A041700CA6934 /* Assets.xcassets in Resources */,
+				BFBEBFE31C3A041700CA6934 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBEBFEC1C3A041700CA6934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBEBFF71C3A041700CA6934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFBEBFD61C3A041700CA6934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBEBFE01C3A041700CA6934 /* ViewController.swift in Sources */,
+				BFBEBFDE1C3A041700CA6934 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBEBFEA1C3A041700CA6934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBEBFF31C3A041700CA6934 /* SoundscapeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBEBFF51C3A041700CA6934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBEBFFE1C3A041700CA6934 /* SoundscapeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFBEBFF01C3A041700CA6934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFBEBFD91C3A041700CA6934 /* Soundscape */;
+			targetProxy = BFBEBFEF1C3A041700CA6934 /* PBXContainerItemProxy */;
+		};
+		BFBEBFFB1C3A041700CA6934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFBEBFD91C3A041700CA6934 /* Soundscape */;
+			targetProxy = BFBEBFFA1C3A041700CA6934 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFBEBFE11C3A041700CA6934 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBEBFE21C3A041700CA6934 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFBEBFE61C3A041700CA6934 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBEBFE71C3A041700CA6934 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFBEC0001C3A041700CA6934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFBEC0011C3A041700CA6934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFBEC0031C3A041700CA6934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Soundscape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JY.Soundscape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFBEC0041C3A041700CA6934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Soundscape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JY.Soundscape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFBEC0061C3A041700CA6934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoundscapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JY.SoundscapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundscape.app/Soundscape";
+			};
+			name = Debug;
+		};
+		BFBEC0071C3A041700CA6934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoundscapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JY.SoundscapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundscape.app/Soundscape";
+			};
+			name = Release;
+		};
+		BFBEC0091C3A041700CA6934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoundscapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JY.SoundscapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Soundscape;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFBEC00A1C3A041700CA6934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoundscapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JY.SoundscapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Soundscape;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFBEBFD51C3A041700CA6934 /* Build configuration list for PBXProject "Soundscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBEC0001C3A041700CA6934 /* Debug */,
+				BFBEC0011C3A041700CA6934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFBEC0021C3A041700CA6934 /* Build configuration list for PBXNativeTarget "Soundscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBEC0031C3A041700CA6934 /* Debug */,
+				BFBEC0041C3A041700CA6934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFBEC0051C3A041700CA6934 /* Build configuration list for PBXNativeTarget "SoundscapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBEC0061C3A041700CA6934 /* Debug */,
+				BFBEC0071C3A041700CA6934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFBEC0081C3A041700CA6934 /* Build configuration list for PBXNativeTarget "SoundscapeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBEC0091C3A041700CA6934 /* Debug */,
+				BFBEC00A1C3A041700CA6934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFBEBFD21C3A041700CA6934 /* Project object */;
+}
