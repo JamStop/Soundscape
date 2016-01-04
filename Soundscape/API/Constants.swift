@@ -14,9 +14,9 @@ class Constants: NSObject {
     static let sharedInstance = Constants()
     
     //Soundcloud Constants
-    let SC_CLIENT_ID: String = "44c0d423bb154343e1936bbc4528ba65"
-    let SC_CLIENT_SECRET: String = "fa19ba59a6819e820f5653788c1d810c"
-    let SC_REDIRECT_URI: String = "sounddrop://oauth"//don't forget to change this in Info.plist as well"
+    let SC_CLIENT_ID: String = "a4ac24961e64fe3d7b86eb897525f696"
+    let SC_CLIENT_SECRET: String = "e4fa19f75b4781e5d5c7a29a97ab489c"
+    let SC_REDIRECT_URI: String = "soundscape://oauth" //don't forget to change this in Info.plist as well"
     let SC_TRACKS_API_URL: String = "https://api.soundcloud.com/tracks"
     let API_URL: String = "http://appassets.spaceodigicom.com/Sounddrop/action"
 }
